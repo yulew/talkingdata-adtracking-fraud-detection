@@ -8,7 +8,7 @@ Predicting whether a user will download the APP after he or she clicks on the AD
 Before Overlook of Dataset
 Features:
 IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
-(a). Fraud user can clicks on a same AD for many times but using same IP.
+(a). Fraud user can clicks on a same AD for many times but using same IP. <br>
 (b). However, a family or people in the same company can share a same IP, which means a same ip can contain regular user and fraud user. 
 BY group by Device, OS, channel etc can further differentiate that. 
 APP: (Can be used group by IP) app id for marketing 
