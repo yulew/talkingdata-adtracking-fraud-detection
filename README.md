@@ -3,10 +3,10 @@ Kaggle Competition (Top 8%)
 
 
 
-Overlook of the Dataset
+Outlook of the Dataset
 
-Predicting whether a user will download the APP after he or she clicks on the AD. A user may fraudulently clicks on an AD just for making money.
-Before Overlook of Dataset
+We target on predicting whether a user will download the APP after he or she clicks on the AD. A user may fraudulently clicks on an AD just for making money.
+
 
 Features:
 
