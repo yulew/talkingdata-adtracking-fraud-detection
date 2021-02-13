@@ -11,7 +11,7 @@ Features have been preprocessed in this kaggle competition. Now available featur
 the **IP** of a user who clicks on an AD,   
 the **APP** ID for marketing purpose,   
 the mobile phone **device** type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
-the operating system (**OS**) of the phone,   
+the operating system (**OS**) ID of the phone,   
 the **channel** ID of mobile ad publisher, and   
 the **click_time** which means when (UTC time) the user clicks on the AD.   
 
