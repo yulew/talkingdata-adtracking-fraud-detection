@@ -1,7 +1,7 @@
 # Kaggle Competition -- talkingdata-adtracking-fraud-detection 
-（https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection）
+https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection
 
-Forecasting whether a user will download the mobile phone application after the user clicks on this APP's advertisement (AD). A user may fraudulently click on an AD but won't download the APP, and that causes the AD's client to lose extra money. Accordingly, a black list can be created to block these fraudulent clicking users. 
+Forecasting whether a user will download the mobile phone application after the user clicks on this APP's advertisement (AD). A user may repeatedly click on an AD but will never download the APP, and that causes the AD's client to lose extra money. Accordingly, a blacklist can be created to block these fraudulent clicking users. 
 
 
 
@@ -9,12 +9,13 @@ Forecasting whether a user will download the mobile phone application after the 
 
 Features have been preprocessed in this kaggle competition. Now available features include:  
 the **IP** of a user who clicks on an AD,   
-the **APP** indicating APP ID this user clicks,   
+the **APP** ID for marketing purpose,   
 the mobile phone **device** type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
 the operating system (**OS**) of the phone,   
-the **channel** ID of mobile ad publisher and the **click_time** which means when the user clicks on the AD.   
+the **channel** ID of mobile ad publisher, and   
+the **click_time** which means when (UTC time) the user clicks on the AD.   
 
-The target value is **is_attributed**, which mean if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **download_time** is also provided as extra information.
+The target value is **is_attributed**, which mean if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** provides when the user downloads the APP.
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
