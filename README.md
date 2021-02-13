@@ -10,14 +10,14 @@ The goal of the competition is quite simple though:  a user with the following f
 ### Features
 
 Features have been preprocessed in this kaggle competition. The preprocessed features include:  
-the **IP** of a user who clicks on an AD,   
-the **APP** ID for marketing purpose,   
-the mobile phone **device** type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
-the operating system (**OS**) ID of the phone,   
-the **channel** ID of mobile ad publisher, and   
-the **click_time** which means when (UTC time) the user clicks on the AD.   
+**IP**: IP of a user who clicks on an AD,   
+**APP**: APP ID for marketing purpose,   
+**device**: the mobile phone device type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
+**OS**: the operating system ID of the phone,   
+**channel**: the channel ID of mobile ad publisher,
+**click_time**: the UTC time when the user clicks on the AD.   
 
-The target value is **is_attributed**, which means if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
+**is_attributed**: the target value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
