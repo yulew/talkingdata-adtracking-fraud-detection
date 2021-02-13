@@ -9,10 +9,11 @@ The goal of the competition is quite simple though:  a user with the following f
 
 ### Features
 
-Features have been preprocessed in this kaggle competition. The preprocessed features include:  
+Features have been preprocessed in this kaggle competition. The preprocessed features include:   
+*target* value:
+**is_attributed**: If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
 
-**is_attributed**: the *target* value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
-
+**X** values:
 **IP**: IP of a user who clicks on an AD,   
 **APP**: APP ID for marketing purpose,   
 **device**: the mobile phone device type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
