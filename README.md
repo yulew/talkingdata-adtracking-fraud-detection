@@ -16,8 +16,9 @@ Features have been preprocessed in this kaggle competition. The preprocessed fea
 **OS**: the operating system ID of the phone,   
 **channel**: the channel ID of mobile ad publisher,
 **click_time**: the UTC time when the user clicks on the AD.   
+**attributed_time**: If a user indeed downloads the APP, the timestamp when he or she downloads the APP.
 
-**is_attributed**: the target value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
+**is_attributed**: the target value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
