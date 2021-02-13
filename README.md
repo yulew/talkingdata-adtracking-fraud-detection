@@ -1,14 +1,13 @@
 # Kaggle Competition -- talkingdata-adtracking-fraud-detection 
 （https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection）
 
-Forecasting whether a user will download the application after the user clicks on the app's advertisement. A user may fraudulently click on an advertisement but won't download the app, and that causes the client to pay extra money. Accordingly, a black list can be created to block these fraudulent clicking users. 
+Forecasting whether a user will download the cellphone application after the user clicks on this app's advertisement. A user may fraudulently click on an advertisement but won't download the app, and that causes the client to pay extra money. Accordingly, a black list can be created to block these fraudulent clicking users. 
 
 
 
-## Dataset Outlook
+## Dataset Insights
 
-
-Features:
+Available features include the ###IP### of a user who commits a click on a adverstiment
 
 IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 
