@@ -7,7 +7,7 @@ Forecasting whether a user will download the cellphone application after the use
 
 ## Dataset Insights
 
-Available features include the ###IP### of a user who commits a click on a adverstiment
+Available features include the ##IP## of a user who commits a click on a adverstiment
 
 IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 
