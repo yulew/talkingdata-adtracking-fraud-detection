@@ -7,6 +7,8 @@ The competition aims forecasting whether a user will download the mobile phone a
 
 ## Insights of the Datasets
 
+### Features
+
 Features have been preprocessed in this kaggle competition. Now available features include:  
 the **IP** of a user who clicks on an AD,   
 the **APP** ID for marketing purpose,   
