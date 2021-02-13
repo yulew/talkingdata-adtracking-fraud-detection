@@ -1,9 +1,10 @@
-# Kaggle Competition -- talkingdata-adtracking-fraud-detection （https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection）
+# Kaggle Competition -- talkingdata-adtracking-fraud-detection 
+（https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection）
 
 
 
 
-Outlook of the Dataset
+## Dataset Outlook
 
 We target on predicting whether a user will download the APP after he or she clicks on the AD. A user may fraudulently clicks on an AD just for making money.
 
