@@ -34,4 +34,4 @@ is_attributed: Target Value -->
 
 ### Insights
 
-A fraudulent user usually uses a same IP. However, an IP address may include many Internet users. 
+A fraudulent user's IP address usually will not change. However, many differnt Internet users may share a same IP. <!--- These users may --> For example, many devices can use a external IP address in a company or a public shared network; also, 2G mobile phone network providers cannot provide unique IP address to individuals. Therefore, a same IP does not necessarily mean a same person. Additional information, such as "device", "OS" can further differentiate different users.   
