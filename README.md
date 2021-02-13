@@ -1,7 +1,7 @@
 # Kaggle Competition -- talkingdata-adtracking-fraud-detection 
 （https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection）
 
-Targeting forcasting whether a user will download the APP after the user clicks on the advertisement. A user can fraudulently clicks on an AD just for making money. A black list can be created to block these users accordingly. 
+Forcasting whether a user will download the APP after the user clicks on the advertisement. A user can fraudulently clicks on an AD just for making money. A black list can be created to block these users accordingly. 
 
 
 
