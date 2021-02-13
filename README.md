@@ -1,8 +1,8 @@
 # Kaggle Competition -- talkingdata-adtracking-fraud-detection 
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection
 
-The competition aims forecasting whether a user will download the mobile phone application after the user clicks on this APP's advertisement (AD). A user may repeatedly click on an AD but will never download the APP, and that causes the AD's client to lose extra money. Accordingly, a blacklist can be created to block these fraudulent clicking users. 
-
+The competition aims forecasting whether a user will download the mobile phone application after the user clicks on this APP's advertisement (AD). A user may repeatedly click on an AD but will never download the APP, and that causes the AD's client to lose extra money. Accordingly, a long-term goal is to create a blacklist can be created to block these fraudulent clicking users.  
+The goal of the competition is quite simple though: given a user with the belowed features, predicting whether this user will download the APP.
 
 
 ## Insights of the Datasets
@@ -17,7 +17,7 @@ the operating system (**OS**) ID of the phone,
 the **channel** ID of mobile ad publisher, and   
 the **click_time** which means when (UTC time) the user clicks on the AD.   
 
-The target value is **is_attributed**, which mean if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** provides when the user downloads the APP.
+The target value is **is_attributed**, which mean if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
@@ -32,4 +32,6 @@ click_time:
 (b). Durations of click_time of a same IP can make a prediction. attributed_time:
 is_attributed: Target Value -->
 
+### Insights
 
+A fraudulent user usually uses a same IP. However, an IP address may include many Internet users. 
