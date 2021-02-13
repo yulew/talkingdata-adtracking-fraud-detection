@@ -11,7 +11,7 @@ The goal of the competition is quite simple though:  a user with the following f
 
 Features have been preprocessed in this kaggle competition. The preprocessed features include:   
 
-Target features:  
+Target feature:  
 **is_attributed**: If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
 
 Input features:  
