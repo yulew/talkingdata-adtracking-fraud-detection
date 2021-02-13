@@ -17,7 +17,7 @@ the operating system (**OS**) ID of the phone,
 the **channel** ID of mobile ad publisher, and   
 the **click_time** which means when (UTC time) the user clicks on the AD.   
 
-The target value is **is_attributed**, which mean if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
+The target value is **is_attributed**, which means if the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. If a user's is_attributed is 1, the **attributed_time** is also provided which indicates when the user downloads the APP (but it is not provided in the test data).
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
@@ -34,4 +34,4 @@ is_attributed: Target Value -->
 
 ### Insights
 
-A fraudulent user's IP address usually will not change. However, many differnt Internet users may share a same IP. <!--- These users may --> For example, many devices can use a external IP address in a company or a public shared network; also, 2G mobile phone network providers cannot provide unique IP address to individuals. Therefore, a same IP does not necessarily mean a same person. Additional information, such as "device", "OS" can further differentiate different users.   
+A fraudulent user's IP address will usually not change. However, many different Internet users may share the same IP. <!--- These users may --> devices may use an external IP address for a company or a public shared network; also, 2G mobile phone network providers cannot provide unique individuals. As such, the same IP does not necessarily mean the same person. Additional information, such as "device" and "OS" can further differentiate different users.  
