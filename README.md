@@ -10,6 +10,9 @@ The goal of the competition is quite simple though:  a user with the following f
 ### Features
 
 Features have been preprocessed in this kaggle competition. The preprocessed features include:  
+
+**is_attributed**: the *target* value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
+
 **IP**: IP of a user who clicks on an AD,   
 **APP**: APP ID for marketing purpose,   
 **device**: the mobile phone device type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
@@ -18,7 +21,6 @@ Features have been preprocessed in this kaggle competition. The preprocessed fea
 **click_time**: the UTC time when the user clicks on the AD.   
 **attributed_time**: If a user indeed downloads the APP, the timestamp when he or she downloads the APP.
 
-**is_attributed**: the target value. If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
 (a). Fraud user can clicks on a same AD for many times but using same IP. 
