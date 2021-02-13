@@ -1,8 +1,8 @@
 # Kaggle Competition -- talkingdata-adtracking-fraud-detection 
 https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection
 
-The competition aims forecasting whether a user will download the mobile phone application after the user clicks on this APP's advertisement (AD). A user may repeatedly click on an AD but will never download the APP, and that causes the AD's client to lose extra money. Accordingly, a long-term goal is to create a blacklist can be created to block these fraudulent users.  
-The goal of the competition is quite simple though: given a user with the belowed features, predicting whether this user will download the APP.
+The competition aims at forecasting whether a user will download the mobile phone application after the user clicks on an advertisement (AD). A user may repeatedly click on an AD but will never download the APP, which causes the AD's client to lose extra money. Accordingly, the long-term goal is to create a blacklist that will block these fraudulent users.
+The goal of the competition is quite simple though:  a user with the following features, predicting whether a user will download the APP.
 
 
 ## Insights of the Datasets
