@@ -22,7 +22,7 @@ Input features:
 **OS**: the operating system ID of the phone,   
 **channel**: the channel ID of mobile ad publisher,  
 **click_time**: the UTC time when the user clicks on the AD,   
-**attributed_time**: If a user indeed downloads the APP, the timestamp when he or she downloads the APP, otherwise null
+**attributed_time**: If a user indeed downloads the APP, the timestamp when he or she downloads the APP, otherwise null.
 
 
 <!--- IP: Which region or country a user is located is relevant to whether he or she fraudulently clicks on the AD. 
