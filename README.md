@@ -20,7 +20,7 @@ Input features:
 **APP**: APP ID for marketing purpose,   
 **device**: the mobile phone device type ID (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.),   
 **OS**: the operating system ID of the phone,   
-**channel**: the channel ID of mobile ad publisher,
+**channel**: the channel ID of mobile ad publisher,  
 **click_time**: the UTC time when the user clicks on the AD.   
 **attributed_time**: If a user indeed downloads the APP, the timestamp when he or she downloads the APP.
 
