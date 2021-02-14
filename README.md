@@ -10,7 +10,7 @@ The goal of the competition is quite simple though:  a user with the following f
 
 ### Features
 
-Features have been preprocessed in this kaggle competition. The preprocessed features include:   
+Features have been preprocessed in this Kaggle competition. The preprocessed features include:   
 
 Target feature:  
 **is_attributed**: If the user indeed downloads the APP after he or she clicks on the AD, the value is 1, otherwise is 0. 
@@ -34,10 +34,18 @@ Device: device type id of user mobile phone (e.g., iphone 6 plus, iphone 7, huaw
 OS: (Can be used group by IP) os version id of user mobile phone 
 Channel: channel id of mobile ad publisher 
 click_time: 
-(a). A regular user and a fraud user varys in terms of when they click on AD.
+(a). A regular user and a fraud user varies in terms of when they click on AD.
 (b). Durations of click_time of a same IP can make a prediction. attributed_time:
 is_attributed: Target Value -->
 
 ### Insights
 
-A user's IP address will usually not change. However, many different Internet users may share the same IP. <!--- These users may --> For example, many different devices may use an external IP address for a company or a public shared network; also, 2G mobile phone network providers cannot provide unique IPs for individuals. As such, the same IP does not necessarily mean the same person. Additional information, such as "device" and "OS" can further differentiate different users.  
+1. A user's IP address will usually not change. However, many different Internet users may share the same IP. <!--- These users may --> For example, many different devices may use an external IP address for a company or a public shared network; also, 2G mobile phone network providers cannot provide unique IPs for individuals. As such, the same IP does not necessarily mean the same person. Additional information, such as "device" and "OS" can further differentiate different users.  
+<!--- Therefore, "IP" can be group by with "device" and "OS" -->
+
+2. A fraudulent user will repeatedly click on the AD many times. At such, collecting information of frequency of a user can help forecast whether this user is a fraudulent user.
+
+In conclusions:  
+We can create features through grouping by features IP, device and OS and count frequencies:
+(a). freq_IP_device_OS
+(b). 
