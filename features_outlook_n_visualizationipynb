@@ -15,9 +15,9 @@
     "1. Imbalanced Data: about 0.26% vs 99.74%<br>\n",
     "2. Training data includes three days data: 2017-11-06 Monday 14:32 to 2017-11-09 Thursday 16:00 <br>\n",
     "3. To check data.describe(), at least one day data should be loaded, around 55 000 000 rows. <br>\n",
-    "4. Create new features: \n",
+    "4. Create new features: <br>\n",
     "(a) Frequency (clicks), downloads frequency and mean_download_ratio per group of \"IP, device and OS\" <br>\n",
-    "(b) Convert timestamp to hour: eg.  2017-11-06 11:30:11 to 11. At such, timestamp to categorical data"
+    "(b) Convert timestamp to hour (categorical data): eg.  2017-11-06 11:30:11 $\\rightarrow$ 11. "
    ]
   },
   {
