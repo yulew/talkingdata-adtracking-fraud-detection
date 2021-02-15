@@ -70,5 +70,10 @@ When simply performing a regression method, like XGBoost, the original features 
 IP, APP, device, OS, channel, click_time can be converted to: <br>
 **ip-device-os-clicks, ip-device-os-downloads, ip-device-os-downloads-ratio, app-clicks, app-downloads, app-ratio, channel-clicks, channel-downloads, channel-ratio, hour-clicks, hour-downloads and hour-downloads-ratio**.
 
-### XGBoost
-When 
+### XGBoost Technique Issues:
+After theses features are created. We splitted it over 100 parts and saved it into storage with 17.3 GB. 
+Depending the RAM of your machine, you can load them all in once or iteratively load them.
+
+adtrackingfraud-xgboost.ipynb describes a program that loads each part of training data and fed them into XGBoost and train them one by one. Parameters can tuned by Grid Search or Random Search. To see whether a set of parameters are better, just train a small set of data and check the cross-valiation results.
+
+
