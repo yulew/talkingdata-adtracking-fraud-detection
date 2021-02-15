@@ -67,7 +67,7 @@ A decision tree relies on finding a splitting point on each feature but can caus
 ### Engineering Features
 When simply performing a regression method, like XGBoost, the original features IP, APP, device, OS and channel are almost meaningless categorical features. Therefore, we must convert these features to more meaningful representations. The previous section discusses how some new features can be created.
 
-IP, APP, device, OS, channel, click_time can be converted to: 
+IP, APP, device, OS, channel, click_time can be converted to: <br>
 **ip-device-os-clicks, ip-device-os-downloads, ip-device-os-downloads-ratio, app-clicks, app-downloads, app-ratio, channel-clicks, channel-downloads, channel-ratio, hour-clicks, hour-downloads and hour-downloads-ratio**.
 
 ### XGBoost
