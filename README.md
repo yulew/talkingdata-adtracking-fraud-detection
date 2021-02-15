@@ -46,6 +46,6 @@ is_attributed: Target Value -->
 2. A fraudulent user will repeatedly click on the AD many times. At such, collecting information of frequency of a user can help forecast whether this user is a fraudulent user.
 
 In conclusions:  
-We can create features through grouping by features IP, device and OS and count frequencies:
+We can create features via grouping by features IP, device and OS and count frequencies:
 (a). freq_IP_device_OS: per group of IP-device-OS, (i) what is the total clicks, (ii) what is the total downloads, (iii) what is the ratio of downloads to all clicks.
 (b). Convert the yyyy-mm-dd hh:mm:ss to just hour
