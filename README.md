@@ -65,7 +65,7 @@ A random forest or a gradient boosting is a set of decision trees. XGBoost is an
 A decision tree relies on finding a splitting point on each feature but can cause overfitting. A random forest or a gradient boosting can reduce the overfitting by introducing many decision trees.
 
 ### Engineering Features
-The original features IP, APP, device, OS and channel are almost meaningless categorical features when simply using a regression method like XGBoost. Therefore, we must convert these features to more meaningful representations. The previous section discusses how some new features can be created.
+When simply performing a regression method, like XGBoost, the original features IP, APP, device, OS and channel are almost meaningless categorical features. Therefore, we must convert these features to more meaningful representations. The previous section discusses how some new features can be created.
 
 IP, APP, device, OS, channel, click_time can be converted to : ip-device-os-clicks, ip-device-os-downloads, ip-device-os-downloads-ratio, app-clicks, app-downloads, app-ratio, channel-clicks, channel-downloads, channel-ratio, hour-clicks, hour-downloads and hour-downloads-ratio.
   
