@@ -72,8 +72,8 @@ IP, APP, device, OS, channel, click_time can be converted to: <br>
 
 ### XGBoost Technique Issues:
 After theses features are created. We splitted it over 100 parts and saved it into storage with 17.3 GB. 
-Depending the RAM of your machine, you can load them all in once or iteratively load them.
+Depending on the RAM of your machine, you can load them all at once or iteratively load them.
 
-adtrackingfraud-xgboost.ipynb describes a program that loads each part of training data and fed them into XGBoost and train them one by one. Parameters can tuned by Grid Search or Random Search. To see whether a set of parameters are better, just train a small set of data and check the cross-valiation results.
+adtrackingfraud-xgboost.ipynb describes a program that loads each bit of training data and feeds them into XGBoost and trains them one by one. Parameters can be tuned by Grid Search or Random Search. To see which set of parameters are better, we shall just train a small set of data and check the cross-valiation results.
 
 
