@@ -58,5 +58,6 @@ We can create features via grouping by features IP, device and OS and count freq
 (iii) hour-downloads-ratio: on a specific hour,                   the ratio of the clicks that result in downloading to all clicks. <br>
 
 These three new created features better represent timestamp feature. After that, the features "click_time", "attributed_time" ("yyyy-mm-dd hh:mm:ss") and "hour" can be removed if we later put them in the random forests or gradient boost to train. 
-## Technical Parts
-After engineering features 
+
+## XGBoost
+Random forests or gradient boosting is a set of decision trees. 
