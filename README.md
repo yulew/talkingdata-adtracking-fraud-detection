@@ -60,4 +60,4 @@ We can create features via grouping by features IP, device and OS and count freq
 These three new created features better represent timestamp feature. After that, the features "click_time", "attributed_time" ("yyyy-mm-dd hh:mm:ss") and "hour" can be removed if we later put them in the random forests or gradient boost to train. 
 
 ## XGBoost
-A random forest or a gradient boosting is a set of decision trees. XGBoost is an implementation of gradient boosted decision trees that are dominatedly applied in Kaggle competitions due to its good speed and performance.
+A random forest or a gradient boosting is a set of decision trees. XGBoost is an implementation of gradient boosted decision trees that are dominatedly applied in Kaggle competitions due to its good speed and performance. A decision tree relies on keeping finding a splitting point on each feature but can cause overfitting. A random forest or a gradient boosting can reduce the overfitting by introducing many decision trees.
