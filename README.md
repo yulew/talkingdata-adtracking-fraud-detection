@@ -57,6 +57,6 @@ We can create features via grouping by features IP, device and OS and count freq
 (ii)  hour-downloads:	      on a specific hour,                   the total clicks that all occur on that hour and they download the APP afterwards, <br>
 (iii) hour-downloads-ratio: on a specific hour,                   the clicks that eventually led to downloading with respect to all clicks. <br>
 
-After that, the feature timestamp("yyyy-mm-dd hh:mm:ss") and hour can be deleted. 
+These three engineered features should better represent time-series features. After that, the features "click_time", "attributed_time" ("yyyy-mm-dd hh:mm:ss") and "hour" can be removed. 
 ## Technical Parts
 After engineering features 
