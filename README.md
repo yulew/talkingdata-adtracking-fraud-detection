@@ -47,5 +47,14 @@ is_attributed: Target Value -->
 
 In conclusions:  
 We can create features via grouping by features IP, device and OS and count frequencies:
-(a). freq_IP_device_OS: per group of IP-device-OS, (i) what is the total clicks, (ii) what is the total downloads, (iii) what is the ratio of downloads to all clicks.
-(b). Convert the yyyy-mm-dd hh:mm:ss to just hour
+(a). freq_IP_device_OS: per group of IP-device-OS, (i) what is the total clicks, (ii) what is the total downloads, (iii) what is the ratio of downloads to all clicks. To be more specific: <br>
+(i)   ip-device-os-clicks :        After grouping IP-device-OS, the click frequencies <br>
+(ii)  ip-device-os-downloads:      After grouping IP-device-OS, the total downloads   <br>
+(iii) ip-device-os-downloads-ratio:After grouping IP-device-OS, the ratio of total downloads with respect to all clicks <br>
+
+(b). Convert the yyyy-mm-dd hh:mm:ss to hour (e.g. 2017-11-06 16:37:01 $\rightarrow$ 16), then engineering features such as: <br>
+(i)   hour-clicks: on a specific hour, 
+
+
+## Technical Parts
+After engineering features 
