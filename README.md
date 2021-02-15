@@ -46,13 +46,13 @@ is_attributed: Target Value -->
 2. A fraudulent user will repeatedly click on the AD many times. At such, collecting information of frequency of a user can help forecast whether this user is a fraudulent user.
 
 In conclusions:  
-We can create features via grouping by features IP, device and OS and count frequencies:
+We can create features via grouping by features IP, device and OS and count frequencies:<br>
 (a). freq_IP_device_OS: per group of IP-device-OS, (i) what is the total clicks, (ii) what is the total downloads, (iii) what is the ratio of downloads to all clicks. To be more specific: <br>
 (i)   ip-device-os-clicks :         After grouping IP-device-OS, the click frequencies of the corresponding group <br>
 (ii)  ip-device-os-downloads:       After grouping IP-device-OS, the total downloads of the corresponding group  <br>
 (iii) ip-device-os-downloads-ratio: After grouping IP-device-OS, the clicks that eventually led to downloading with respect to all clicks of the corresponding group <br>
 
-(b). Convert the yyyy-mm-dd hh:mm:ss to hour (e.g. 2017-11-06 16:37:01 --> **16**), then we shall engineer features such as: <br>
+(b). Convert the "yyyy-mm-dd hh:mm:ss" to "hour" (e.g. 2017-11-06 16:37:01 --> **16**), then we shall engineer features such as: <br>
 (i)   hour-clicks:          on a specific hour (such as hour 16), the total clicks that all occur on that hour, <br>
 (ii)  hour-downloads:	      on a specific hour,                   the total clicks that all occur on that hour and they download the APP afterwards, <br>
 (iii) hour-downloads-ratio: on a specific hour,                   the clicks that eventually led to downloading with respect to all clicks. <br>
