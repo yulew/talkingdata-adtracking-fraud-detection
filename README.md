@@ -40,7 +40,7 @@ is_attributed: Target Value -->
 
 ### Insights
 
-1. A user's IP address will usually not change. However, many different Internet users may share the same IP. <!--- These users may --> For example, many different devices may use an external IP address for a company or a public shared network; also, 2G mobile phone network providers cannot provide unique IPs for individuals. As such, the same IP does not necessarily mean the same person. Additional information, such as "device" and "OS" can further differentiate different users.  
+1. A user's IP address usually does not change. However, many different Internet users may share a same IP. <!--- These users may --> For example, many different devices may use an external IP address in a company or in a public shared network; also, 2G mobile phone network providers cannot provide unique IPs for individuals. As such, the same IP does not necessarily indicate a same individual. Additional information, such as "device" and "OS" can further differentiate different users.  
 <!--- Therefore, "IP" can be group by with "device" and "OS" -->
 
 2. A fraudulent user will repeatedly click on the AD many times. At such, collecting information of frequency of a user can help forecast whether this user is a fraudulent user.
