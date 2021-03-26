@@ -62,7 +62,7 @@ These three new created features better represent timestamp feature. After that,
 ## XGBoost
 ### What is XGBoost?
 A random forest or a gradient boosting is a set of decision trees. XGBoost is an implementation of gradient boosted decision trees that are widely used in Kaggle competitions due to its good speed and performance. <br>
-A decision tree relies on finding an optimal splitting point on each feature but this can cause overfitting. A random forest can reduce the overfitting by introducing many decision trees using bagging methods with equal weight on each decision tree. For boosting methods, the next decision tree's structure relies on the previous weak decision trees and the weights on each tree are different depending on how good a decision tree can make a prediction.
+A decision tree relies on finding an optimal splitting point on each feature but this can cause overfitting. A random forest can reduce the overfitting by introducing many decision trees using bagging methods with equal weight on each decision tree. For boosting methods, the next decision tree's structure growth relies on the previous weak decision trees and ensembles with the previous trees to make a prediction.
 
 ### Engineering Features
 When simply performing a regression method, like XGBoost, the original features IP, APP, device, OS, channel and timestamps are almost meaningless categorical features. Therefore, we must convert these features to more meaningful representations. The previous section discusses how some new features can be created.
